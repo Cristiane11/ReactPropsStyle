@@ -1,0 +1,32 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+ 
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Source Serif 4', sans-serif;
+  
+}
+
+
+.card{
+ 
+  margin: 10px;
+  box-sizing: border-box;
+  background-color:rgb(8, 150, 67);
+  border-radius: 10px;
+  width: 317px;
+  font-size: 62.5%;
+}
+.card-img{
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+}
+.card-btn{
+
+}
