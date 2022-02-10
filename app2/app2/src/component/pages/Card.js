@@ -3,7 +3,7 @@ import cristiane from '../images/cristiane.jpg'
 function Card() {
   return (
     <main className="card">
-        <img src={cristiane} className="card-img"/>
+        <img src={cristiane} className="npm "/>
         <div className="card-content">
              <h1 className="card-header">Cristiane Abreu</h1>
                 <h4>Frontend Developer</h4>
