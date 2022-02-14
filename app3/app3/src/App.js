@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import NavBar from './component/pages/NavBar';
+import Main from './component/pages/Main'
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
 
       <NavBar/>
+      <Main/>
     </div>
   );
 }
