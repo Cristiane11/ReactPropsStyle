@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import NavBar from './component/pages/NavBar';
-import Main from './component/pages/Main'
+import Main from './component/pages/Main';
+import Card from './component/pages/Cards'
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
       <NavBar/>
       <Main/>
+      <Card/>
     </div>
   );
 }
