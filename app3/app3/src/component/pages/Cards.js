@@ -8,13 +8,13 @@ function Card() {
         <button>SOLD OUT</button>
         <img src={katie} className="cardImage" alt="cardImage" />
         <div className='stats'>
-            <img src={star} className="star" /><h3> 5.00</h3>
+            <img src={star} className="star" />
             <span>5.0</span>
-            <span>(6) .</span>
-            <span>usa</span>    
+            <span className='gray'>(6) • </span>
+            <span className='gray'>USA</span>    
         </div>
         <p>Life Lessons with Katie Zaferes</p>
-       <p>From $136</p>
+       <p><span className="bold">From $136</span>/Person</p>
     </section>
   );
 }
