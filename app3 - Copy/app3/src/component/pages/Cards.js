@@ -1,22 +1,21 @@
 import React from 'react';
-import katie from '../images/katie.png';
-import star from '../images/star.png';
+import star from './images/star.png';
 
-function Card() {
+function Card (props) {
   return (
     <section className="card">
-        <button>SOLD OUT</button>
-        <img src={katie} className="cardImage" alt="cardImage" />
+        <img src={`../images/${props.img}`} className="cardImage" alt="cardImage" />
         <div className='stats'>
-            <img src={star} className="star" />
-            <span>5.0</span>
-            <span className='gray'>(6) • </span>
-            <span className='gray'>USA</span>    
+            //<img src={star} className="star" />
+            <span>{props.stats.rating}</span>
+            <span className='gray'>({props.stats.reviewCount}) • </span>
+            <span className='gray'>{props.location}</span>    
         </div>
         <p>Life Lessons with Katie Zaferes</p>
-       <p><span className="bold">From $136</span>/Person</p>
+       <p><span className="bold">From ${props.price}</span>/Person</p>
     </section>
   );
 }
 
 export default Card;
+
