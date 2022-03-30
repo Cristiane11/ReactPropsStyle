@@ -10,6 +10,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+main{
+  padding:36px;
+}
 .header{
   display:flex;
   align-items: center;
@@ -32,9 +35,25 @@ body {
   font-weight: 500;
 }
 .form{
-  display:flex;
-  align-items: center;
+  display:grid;
+  grid-template: 40px 40px /1fr 1fr;
+  gap:17px;
+  
 }
 .form--input{
-  
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent:5px;
+
+}
+.form--button{
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #1f4037 1.14%, 
+  #99f2c8 100%);
+  color:white;
+  border:none;
+  cursor: pointer;
 }
