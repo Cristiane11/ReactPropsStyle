@@ -14,8 +14,8 @@ function Meme() {
   return (
         <main>
         <div className="form">
-            <input type="text" placeholder="top text" className="form--input"></input>
-            <input type="text" placeholder="bottom text"  className="form--input"></input>
+            <input type="text" placeholder="Top text" className="form--input"></input>
+            <input type="text" placeholder="Bottom text"  className="form--input"></input>
             <button type="submit" className="form--button" onClick={getMemeImage}>Get a new meme image 🖼</button>
         </div>
         </main>
