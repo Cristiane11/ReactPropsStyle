@@ -2,8 +2,6 @@ import memesData from "../memesData";
 
 function Meme() {
 
-
-
     let url
     function getMemeImage(){
         const memesArray = memesData.data.memes

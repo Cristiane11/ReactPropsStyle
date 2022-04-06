@@ -3,15 +3,23 @@ import reactDom from 'react-dom';
 
 function Home(){
 
-    const arrayToDo =["Lavar Roupa", "Cozinhar","Pintar","Dancar"]
-    const increaseTodo = arrayToDo.map(item => <p>{item}</p>)
-   
+    const [items, setItem]= React.useState(["Lavar Roupa", "Cozinhar","Pintar","Dancar"])
+    
+    
     function addItem(){
-        const newAdd =` Todo $ {arrayToDo.length + 1}` 
+        const newAdd =` Item ${items.length + 1}` 
+        setItem(prevState => [...prevState, newAdd])
+      
     }
+    const increaseTodo = items.map(item => <p key={item}>{item}</p>)
+   
+    
+    
     return(
         <div>
-            <button> Add item</button>
+            <button onClick={addItem}> Add item</button>
+            {increaseTodo}
+
         </div>
     )
 }
