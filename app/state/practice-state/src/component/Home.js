@@ -2,9 +2,8 @@ import React from 'react';
 import reactDom from 'react-dom';
 
 function Home(){
-
+   
     const [items, setItem]= React.useState(["Lavar Roupa", "Cozinhar","Pintar","Dancar"])
-    
     
     function addItem(){
         const newAdd =` Item ${items.length + 1}` 
