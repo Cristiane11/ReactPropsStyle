@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media screen and (max-width: 480px) {
+  .header {
+      grid-column: span 6;
+  }
+  
+  .menu {
+      grid-row: 1;
+      grid-column: span 6;
+  }
+  
+  .content {
+      grid-column: span 12;
+  }
 }

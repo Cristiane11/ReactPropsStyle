@@ -1,24 +1,15 @@
-
+import './CssGrid.css';
 
 function CssGrid() {
   return (
-    <div>
-        <head>
-
-        </head>
-        <body>
-            <h1>
-                 Why learn CSS Grid layout?
-            </h1>
-            <ul className="list">
-                <li>EASIER TO CREATE TWO DIMENSIONAL LAYOUTS</li>
-                <li>SIMPLER MARKUP</li>
-                <li>FLEXIBLE</li>
-                <li>SKIP FRAMEWORKS</li>
-                <li>BROWSER SUPPORT</li>
-                <li><a href="examples.html">SEE EXAMPLES</a></li>
-            </ul>
-        </body>
+    <div className="grid">
+           <h1 className="title">CSS GRID</h1>
+        <div className="wrapper">
+            <div className="header">HEADER</div>
+            <div className="menu">MENU</div>
+            <div className="content">CONTENT</div>
+            <div className="footer">FOOTER</div>
+        </div>
     </div>
    
   );
