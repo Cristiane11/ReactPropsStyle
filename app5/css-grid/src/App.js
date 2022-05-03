@@ -1,11 +1,11 @@
-import CssGrid from './component/CssGrid';
+//import CssGrid from './component/CssGrid';
 import CssGrid2 from './component/CssGrid2';
 import './App.css';
 
 function App() {
   return (
     <div className="#">
-          <CssGrid/>
+        
           <CssGrid2/>
     </div>
   );
