@@ -11,10 +11,18 @@
     grid-template-rows: 80px ;
     grid-gap: 3px;
 }
-*/
+*//*
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 50px);
     grid-gap: 3px;
 }
+*/
+/*
+.container {
+    display: grid;
+    grid-template: repeat(2, 50px) / repeat(3, 1fr);
+    grid-gap: 3px;
+}
+*/
