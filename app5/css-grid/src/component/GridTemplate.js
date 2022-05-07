@@ -4,10 +4,10 @@ import './GridTemplateBasic.css';
 function GridTemplate() {
   return (
     <div className="container">
-        <div>HEADER</div>
-        <div>MENU</div>
-        <div>CONTENT</div>
-        <div>FOOTER</div>
+        <div className="header">HEADER</div>
+        <div className="menu">MENU</div>
+        <div className="content">CONTENT</div>
+        <div className="footer">FOOTER</div>
       
     </div>
    
