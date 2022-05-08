@@ -1,5 +1,6 @@
-import './GridTemplate.css';
+/*import './GridTemplate.css';*/
 import './GridTemplateBasic.css';
+import './SimpleWay.css';
 
 function GridTemplate() {
   return (
