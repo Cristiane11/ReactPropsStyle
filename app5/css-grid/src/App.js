@@ -1,12 +1,12 @@
 //import CssGrid from './component/CssGrid';
 //import CssGrid2 from './component/CssGrid2';
-import GridTemplate from './component/GridTemplate';
+//import GridTemplate from './component/GridTemplate';
+import AutoFit from "./component/AutoFit";
 
 function App() {
   return (
     <div className="#">
-      
-          <GridTemplate/>
+          <AutoFit/>
     </div>
   );
 }
