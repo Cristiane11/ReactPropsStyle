@@ -5,7 +5,7 @@ import GridTemplate from './component/GridTemplate';
 function App() {
   return (
     <div className="#">
-        
+      
           <GridTemplate/>
     </div>
   );
