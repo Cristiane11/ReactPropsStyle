@@ -1,7 +1,8 @@
 //import CssGrid from './component/CssGrid';
 //import CssGrid2 from './component/CssGrid2';
 //import GridTemplate from './component/GridTemplate';
-import AutoFit from "./component/AutoFit";
+
+import AutoFit from "./component/AutoFit.js";
 
 function App() {
   return (

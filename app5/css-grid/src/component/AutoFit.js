@@ -1,6 +1,6 @@
 
 import './GridTemplateBasic.css';
-import './SimpleWay.css';
+import './AutoFit.css';
 
 
 
